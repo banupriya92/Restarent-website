@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    background:#f4f4f4;
+}
+/* Header */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#222;
+    color:white;
+    padding:15px 50px;
+}
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+.nav-links a:hover{
+    color:orange;
+}
+/* Hero Section */
+.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    background:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600") center/cover;
+    color:white;
+    text-align:center;
+}
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:30px;
+    border-radius:10px;
+}
+.hero h1{
+    font-size:50px;
+}
+.hero p{
+    margin:15px 0;
+    font-size:20px;
+}
+button{
+    padding:12px 25px;
+    border:none;
+    background:orange;
+    color:white;
+    cursor:pointer;
+    font-size:18px;
+    border-radius:5px;
+}
+button:hover{
+    background:darkorange;
+}
+/* Menu Section */
+.menu{
+    padding:50px;
+    text-align:center;
+}
+.menu h2{
+    margin-bottom:30px;
+    font-size:35px;
+}
+.menu-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+.card{
+    background:white;
+    width:180px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+.card h3{
+    margin:10px 0;
+}
+.card span{
+    display:block;
+    margin-top:10px;
+    color:orange;
+    font-weight:bold;
+}
+/* About Section */
+.about{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    padding:50px;
+    background:white;
+    flex-wrap:wrap;
+}
+.about-img img{
+    width:300px;
+    max-width:100%;
+    border-radius:10px;
+}
+.about-content{
+    max-width:500px;
+}
+.about-content h2{
+    margin-bottom:15px;
+}
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
